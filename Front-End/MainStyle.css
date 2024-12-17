@@ -1,0 +1,358 @@
+body{
+  background-image: url(https://cdn.pixabay.com/photo/2020/07/18/16/29/coffee-5417663_1280.png);
+  background-size: cover; 
+
+}
+
+.TopPart{
+  border: 2px solid rgba(255, 255, 255, 0.5); 
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.3); 
+  backdrop-filter: blur(10px); 
+  position: relative;
+  z-index: 1;
+}
+.menu-bar-button{
+  background-color: transparent;
+  border: none; 
+  padding: 0;
+}
+
+
+#menu-bar{
+  font-size: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.dropdown-menu{
+  display: none;
+  position: absolute;
+  background-color:beige;
+  min-width:150px;
+  
+}
+
+.dropdown-menu a{
+  color: black;
+  padding: 11px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu a:hover{
+
+  background-color: white; 
+}
+
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+
+
+.Logo{
+  position: absolute;
+  right: 0;
+  right: 20px; 
+  top: 50%; 
+  transform: translateY(-50%);
+  font-size: 20px;
+
+}
+
+.MiddlePart{
+  position: relative;
+  margin-top: 20px;
+  width: 100%;
+  height:1000px;
+}
+.bestSellerDiv {
+  
+  margin-top: 20px;
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid lightblue;
+  height: 400px;
+  border-radius: 10px;
+ 
+}
+.bestSellerSelections{
+  width: 95%;
+  height: 350px;
+  transform: translateX(2.5%);
+  display: flex;
+  align-items: center;
+}
+
+#bestItem1 {
+
+  margin-left: 70px;
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  transform: translateY(-10%);
+  transition: width 0.3s, height 0.3s; 
+  background-image:url('./assets/images/Espresso\ -\ Best\ Item1.jpg') ;
+  background-size:cover ;
+  background-position: center;
+  
+}
+#Espresso_title{
+color: aliceblue;
+text-align: center;
+}
+
+
+#bestItem1:hover{
+  width: 300px;
+  height: 400px;
+}
+
+
+
+#bestItem2 {
+  margin-left: 20px;
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  transform: translateY(-10%);
+  transition: width 0.3s, height 0.3s; 
+  background-image:url('./assets/images/Cappuccino\ -\ Best\ Item\ 2.jpg') ;
+  background-size:cover ;
+  background-position: center;
+}
+#bestItem2:hover{
+  width: 300px;
+  height: 400px;
+}
+#Cappuccino_title{
+  color:black;
+  text-align: center;
+  }
+
+
+#bestItem3 {
+  margin-left: 20px;
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  transform: translateY(-10%);
+  transition: width 0.3s, height 0.3s; 
+  background-image:url('./assets/images/Latte\ -\ Best\ Item\ 3.jpg') ;
+  background-size:cover ;
+  background-position: center;
+}
+#Latte_title{
+  color:white;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#bestItem3:hover{
+  width: 300px;
+  height: 400px;
+}
+
+#bestItem4 {
+  margin-left: 20px;
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  transform: translateY(-10%);
+  transition: width 0.3s, height 0.3s; 
+  background-image:url('./assets/images/Mocha\ -\ Best\ Item\ 4.jpg') ;
+  background-size:cover ;
+  background-position: center;
+
+}
+#bestItem4:hover{
+  width: 300px;
+  height: 400px;
+}
+
+#Mocha_title{
+  color:white;
+  text-align: center;
+  font-family:  'Rubik', sans-serif;
+}
+
+
+#bestItem5 {
+  margin-left: 20px;
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  transform: translateY(-10%);
+  transition: width 0.3s, height 0.3s; 
+  background-image:url('./assets/images/Macchiato\ -\ Best\ Item\ 5.jpg');
+  background-size:cover ;
+  background-position: center;
+
+}
+#Macchiato_title{
+  color:white;
+  text-align: center;
+  font-family:  'Rubik', sans-serif;
+}
+#bestItem5:hover{
+  width: 300px;
+  height: 400px;
+}
+
+#bestItem6 {
+  margin-left: 20px;
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  transform: translateY(-10%);
+  transition: width 0.3s, height 0.3s; 
+  background-image:url('./assets/images/Caramel\ -\ Best\ Item\ 6.jpg');
+  background-size:cover ;
+  background-position: center;
+
+}
+#Caramel_title{
+  color:white;
+  text-align: center;
+  font-family:  'Rubik', sans-serif;
+}
+#bestItem6:hover{
+  width: 300px;
+  height: 400px;
+}
+
+
+
+
+#bestSellerBanner{
+  background-color: darksalmon;
+
+  top: 20px;
+  text-align: center;
+}
+
+#BottomLogo{
+  background-color: transparent;
+  color: white;
+  text-align: center;
+}
+
+
+.newProductDiv {
+  margin-top: 20px;
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid lightblue;
+  height: 400px;
+  border-radius: 10px;
+ 
+}
+.newProductSelections{
+  width: 95%;
+  height: 350px;
+  transform: translateX(2.5%);
+  display: flex;
+  align-items: center;
+}
+
+#newItem1 {
+
+  margin-left: 70px;
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  transform: translateY(-10%);
+  transition: width 0.3s, height 0.3s; 
+
+}
+
+#newItem1:hover{
+  width: 300px;
+  height: 400px;
+}
+
+#newItem2 {
+  margin-left: 20px;
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  transform: translateY(-10%);
+  transition: width 0.3s, height 0.3s; 
+
+}
+
+#newItem2:hover{
+  width: 300px;
+  height: 400px;
+}
+
+#newItem3 {
+  margin-left: 20px;
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  transform: translateY(-10%);
+  transition: width 0.3s, height 0.3s; 
+
+}
+#newItem3:hover{
+  width: 300px;
+  height: 400px;
+}
+
+#newItem4 {
+  margin-left: 20px;
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  transform: translateY(-10%);
+  transition: width 0.3s, height 0.3s; 
+
+}
+#newItem4:hover{
+  width: 300px;
+  height: 400px;
+}
+#newItem5 {
+  margin-left: 20px;
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  transform: translateY(-10%);
+  transition: width 0.3s, height 0.3s; 
+
+}
+#newItem5:hover{
+  width: 300px;
+  height: 400px;
+}
+#newItem6 {
+  margin-left: 20px;
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  transform: translateY(-10%);
+  transition: width 0.3s, height 0.3s; 
+
+}
+#newItem6:hover{
+  width: 300px;
+  height: 400px;
+}
+
+.bottomPart{
+  position: relative;
+  margin-top: 20px;
+  width: 100%;
+  height: 20px;
+
+}
+
+
+#newProductBanner{
+ 
+  background-color: darksalmon;
+  top: 20px;
+  text-align: center;
+}
+
